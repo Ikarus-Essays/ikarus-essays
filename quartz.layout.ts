@@ -41,7 +41,7 @@ export const defaultContentPageLayout: PageLayout = {
       ],
     }),
     Component.Explorer(),
-    Component.RecentNotes({title: "Letzte Beiträge:"}),
+    Component.DesktopOnly(Component.RecentNotes({title: "Letzte Beiträge:"})),
   ],
   right: [
     Component.Graph(),
