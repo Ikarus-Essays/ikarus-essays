@@ -8,7 +8,8 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [],
   footer: Component.Footer({
     links: {
-      Home: "ikarus-lit.org",
+      Startseite: "/",
+      "Über Uns": "/AboutUs",
       //GitHub: "https://github.com/jackyzha0/quartz",
       //"Discord Community": "https://discord.gg/cRFFHYye7t",
     },
@@ -23,7 +24,7 @@ export const defaultContentPageLayout: PageLayout = {
       condition: (page) => page.fileData.slug !== "index",
     }),
     Component.ArticleTitle(),
-    Component.ContentMeta(),
+    //Component.ContentMeta(),
     Component.TagList(),
   ],
   left: [
@@ -40,6 +41,7 @@ export const defaultContentPageLayout: PageLayout = {
       ],
     }),
     Component.Explorer(),
+    Component.RecentNotes({title: "Letzte Beiträge:"}),
   ],
   right: [
     Component.Graph(),

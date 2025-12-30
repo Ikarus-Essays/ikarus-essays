@@ -1,6 +1,11 @@
 ---
-title: Ikarus Essays
+title: Startseite
 draft: false
+tags:
+  - index
 ---
+[[Ikarus]] Essays beschäftigt sich mit philosophischen, politischen und gesellschaftlichen Themen in Form von kurzen Essays und Exzerpten.
 
-Dieser Blog beschäftigt sich mit philosophischen, politischen und gesellschaftlichen Themen in Form von kurzen Essays. Das französische Wort *essayer* bedeutet versuchten und dieser Blog ist der Versuch unsere Gedanken schlüssig auf *Papier* zu bringen. Der Blog begindet sich gerade im Aufbau (Stand Ende 2025).
+![[ikarus-logo.png]]
+
+Die einzelnen Beiträge sind über die Suche, den Explorer oder die Auflistung der zuletzt veröffentlichen Beiträge auf der linken Seite erreichbar. 
